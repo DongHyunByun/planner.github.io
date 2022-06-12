@@ -7,9 +7,13 @@
         <link rel="stylesheet" href="style.css">
         <title>Momentum</title>
     </head>
-    <body>
+    <body background="img/back.jpeg">
+
+        <!--시계-->
+        <h2 id="clock" class="center">00:00:00</h2>
+
         <!--사용자가 정보를 입력할 수 있도록 만들어진 웹 요소-->
-        <form id="login-form" class="hidden"> 
+        <form id="login-form" class="hidden center"> 
             <input 
                 required 
                 maxlength="15"
@@ -18,9 +22,6 @@
             />
             <button>Log In</button>
         </form>
-        
-        <!--시계-->
-        <h2 id="clock">00:00:00</h2>
 
         <!--환영인사-->
         <h1 class="hidden" id="greeting"></h1>
@@ -48,11 +49,17 @@
             <span></span>
         </div>
 
+        <!--배경사진-->
+        <div id="backgroundImg">
+            <span></span>
+            <span></span>
+        </div>
+
         <script src="js/greeting.js"></script>
         <script src="js/clock.js"></script>
         <script src="js/quotes.js"></script>
-        <script src="js/background.js"></script>
+        <!-- <script src="js/background.js"></script> -->
         <script src="js/todo.js"></script>
-        <script src="js/weather.js"></script>
+        <!-- <script src="js/weather.js"></script> -->
     </body>
 </html>   

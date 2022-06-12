@@ -1,5 +1,99 @@
 /* hidden클래스는 숨긴다 */
 .hidden {
     display:none; 
+}
 
+#clock{
+    text-align: center;
+    height:260px;
+    font-size:5rem;
+    margin:10px;
+    color:black;    
+    padding:-100px;
+}
+
+#login-form{
+    text-align:center;
+    color:black;
+    margin:0 auto;
+}
+
+#todo-form{
+    text-align: center;
+    margin-top:0px;
+}
+#todo-form input{
+    text-align: center;
+    color:white;
+    font-size:1rem;
+    width: 540px;
+    height:40px;
+    background-color: rgba(255,255,255,0.1);
+    font-weight: 500;
+    border:none;
+    margin-bottom:20px;
+    margin-top:-50px;
+    transition: all, 0.4s;
+}
+    #login-form input:first-child{
+        text-align: center;
+        color:white;
+        font-size:1.3rem;
+        padding: 10px;
+        width: 240px;
+        background-color: rgba(255,255,255,0.2);
+        border:none;
+        transition: all, 0.4s;
+    }
+#greeting{
+    margin: 0 auto;
+    text-align: center;
+    color: pink;
+    font-weight: 400;
+    font-size:2rem;
+    font-weight: 600;
+}
+
+#todo-list{
+    text-align: center;
+}
+    #todo-list li{
+        list-style: none;
+        color:black;
+        margin-top:40px;
+        margin-bottom:50px;
+        font-size:1rem;
+        width:540px;
+        margin: 0 auto;
+    }
+    #todo-list li:hover{
+        color:rgb(255, 166, 0);
+    }
+    #todo-list button{
+        margin-left:10px;
+        background-color:rgba(255,255,255,0);
+        outline: none;
+        color:white;
+        font-weight: 700;
+        width:30px;
+        height:30px;
+        border:none;
+        font-size:1.2rem;
+    }
+    #todo-list button:hover{
+        cursor: pointer;
+    }
+
+#quote{
+    text-align: center;
+    position:fixed;
+    bottom:20px;
+    margin-left: 36px;
+    font-size:1rem;
+    font-weight: 200;
+    color:white;
+}
+
+body {
+    background-size : cover;
 }
